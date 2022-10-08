@@ -1,0 +1,23 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 68px;
+}
+
+.logo {
+    width: 42px;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    background-color: aqua;
+    width: 85%;
+    height: 138px;
+
+   
+}
+
+ul {
+    width: 50%;
+}
