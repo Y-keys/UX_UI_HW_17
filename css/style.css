@@ -1,7 +1,83 @@
+/* font settings */
+h1 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+
+h4 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+
+p {
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+/* button settings */
+.buttonA {
+    padding: 24px 68px;
+    background: #2A4F4C;
+    color: white;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.buttonB {
+    padding: 24px 68px;
+    background: white;
+    border: 5px solid #2A4F4C;
+    color: #2A4F4C;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* header nav section*/
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
     padding-right: 68px;
+   
 }
 
 .logo {
@@ -14,10 +90,56 @@ nav {
     background-color: aqua;
     width: 85%;
     height: 138px;
-
-   
 }
 
 ul {
-    width: 50%;
+    width: 300px;
 }
+
+/* hero section */
+.hero {
+    height: 600px;
+    padding: 10%;
+}
+
+.heroText {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 115px;
+    letter-spacing: 0.05em;
+}
+
+.heroTagline {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+
+.selfIntroduction {
+    background-color: #E8D7C8;
+    padding: 10%;
+    text-align: center;
+}
+
+/* self introduction section */
+.greeting {
+    font-size: 24px;
+}
+.mini-kawaDiscription {
+    font-size: 16px;
+}
+
+/* project section */
+.project {
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    justify-content: space-between;
+}
+
