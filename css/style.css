@@ -46,7 +46,9 @@ p {
 /* button settings */
 .buttonA {
     padding: 24px 68px;
+    height: 68px;
     background: #2A4F4C;
+    border: none;
     color: white;
     font-family: 'Figtree';
     font-style: normal;
@@ -59,6 +61,7 @@ p {
 
 .buttonB {
     padding: 24px 68px;
+    height: 68px;
     background: white;
     border: 5px solid #2A4F4C;
     color: #2A4F4C;
@@ -136,10 +139,36 @@ ul {
 }
 
 /* project section */
-.project {
+#project {
+    padding: 64px;
+}
+.projectGroup {
     display: flex;
     flex-direction: row;
     padding: 10%;
     justify-content: space-between;
+}
+
+.seeMore {
+    display: flex;
+    margin: auto;
+}
+
+/* get in touch section */
+.getInTouch {
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #E8D7C8;
+}
+
+.contactResume {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 68px;
 }
 
