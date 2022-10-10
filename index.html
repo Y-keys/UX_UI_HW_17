@@ -9,14 +9,11 @@
 </head>
 <body>
     <header class="navigation">
-        <div class="inline-block logo">
-            <img src="images/logo.svg" alt="logo">
-        </div>
-
-        <nav class="inline-block">
-            <ul>
-                <li class="inline-block">WORK</li>
-                <li class="inline-block">ABOUT</li>
+        <nav>
+            <ul class="headerNav">
+                <li><a href="./index.html"><img class="navItem navLogo" src="images/logo.svg" alt="logo"></a></li>
+                <li class="navItem"><a href="./work.html">WORK</a></li>
+                <li class="navItem"><a href="./about.html">ABOUT</a></li>
             </ul>
         </nav>
     </header>
@@ -41,19 +38,26 @@
     <section id="project">
         <div class="projectGroup">
             <div class="projectCard">
-                <img src="" alt="">
+                <div class="projectPic">
+                    <img src="images/Playroom_Mockup.png" alt="FPO">
+                </div>
+                
                 <h2>Project 1</h2>
                 <p>Project summary goes here.</p>
             </div>
 
             <div class="projectCard">
-                <img src="" alt="">
+                <div class="projectPic">
+                    <img src="images/Playroom_Mockup.png" alt="FPO">
+                </div>
                 <h2>Project 2</h2>
                 <p>Project summary goes here.</p>
             </div>
 
             <div class="projectCard">
-                <img src="" alt="">
+                <div class="projectPic">
+                    <img src="images/Playroom_Mockup.png" alt="FPO">
+                </div>
                 <h2>Project 3</h2>
                 <p>Project summary goes here.</p>
             </div>
@@ -63,7 +67,7 @@
     </section>
 
     <!--get in touch here-->
-    <section class="getInTouch">
+    <section id="getInTouch">
         <h2>Get In Touch</h2>
         <p>I’d love to share my work with you and answer any questions you may have.</p>
         <div class="contactResume">
@@ -73,12 +77,12 @@
     </section>
 
     <footer>
-        <ul>
-            <li class="inline-block">Copyright © 2022 Yuki Sakabe</li>
-            <li class="inline-block">Resume</li>
-            <li class="inline-block">LinkedIn</li>
-            <li class="inline-block">Instagram</li>
+        <ul id="footerNav">
+            <li class="navItem">Copyright © 2022 Yuki Sakabe</li>
+            <li class="navItem">Resume</li>
+            <li class="navItem">LinkedIn</li>
+            <li class="navItem">Instagram</li>
         </ul>
     </footer>
 </body>
-</html>
+</html
