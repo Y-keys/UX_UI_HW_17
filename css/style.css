@@ -43,6 +43,24 @@ p {
     line-height: 150%;
 }
 
+@media only screen and (max-width: 768px){
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+}
+
 /* button settings */
 .buttonA {
     padding: 24px 68px;
@@ -55,6 +73,7 @@ p {
     font-weight: 600;
     font-size: 17px;
     text-align: center;
+    line-height: 1.0;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     cursor: pointer;
@@ -71,9 +90,25 @@ p {
     font-weight: 600;
     font-size: 17px;
     text-align: center;
+    line-height: 0.8;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .buttonA {
+        padding: 21px 48px;
+        height: 60px;
+        font-size: 15px;
+    }
+    
+    .buttonB {
+        padding: 21px 48px;
+        height: 60px;
+        font-size: 15px;
+    }
 }
 
 /* header nav section*/
@@ -113,8 +148,9 @@ a {
 
 /* hero section */
 .hero {
-    height: 600px;
-    padding: 10%;
+    padding-top: 2%;
+    padding-bottom: 20%;
+    padding-left: 10%;
 }
 
 .heroText {
@@ -134,15 +170,17 @@ a {
     line-height: 36px;
     letter-spacing: 0.05em;
     text-transform: capitalize;
+    margin-top: -68px;
 }
 
+
+/* self introduction section */
 .selfIntroduction {
     background-color: #E8D7C8;
     padding: 10%;
     text-align: center;
 }
 
-/* self introduction section */
 .greeting {
     font-size: 24px;
 }
@@ -211,26 +249,45 @@ a {
 }
 
 /* get in touch section */
-#getInTouch {
-    text-align: center;
-    padding-top: 112px;
-    padding-bottom: 112px;
-    background-color: #E8D7C8;
-}
+@media only screen and (min-width: 769px) {
 
-.contactResume {
-    margin-top: 48px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    height: 68px;
+    #getInTouch {
+        text-align: center;
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background-color: #E8D7C8;
+    }
+
+    .contactResume {
+        margin-top: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        height: 68px;
+    }
 }
 
 /* get in touch section for mobile*/
 @media only screen and (max-width: 768px)
-{}
+{
+    #getInTouch {
+        text-align: center;
+       padding-top: 96px;
+       padding-bottom: 96px;
+        background-color: #E8D7C8;
+    }
+    
+    .contactResume {
+        margin-top: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 16px;
+    }
+}
 
 /* footer section */
 footer {
@@ -253,3 +310,18 @@ footer {
     color: #161616;
 }
 
+/* footer section for mobile */
+@media only screen and (max-width: 768px)
+{
+#footerNav {
+    padding-left: 5%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
