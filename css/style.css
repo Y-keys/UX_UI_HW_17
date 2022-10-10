@@ -290,9 +290,6 @@ a {
 }
 
 /* footer section */
-footer {
-   
-}
 
 #footerNav {
     padding-left: 5%;
@@ -322,6 +319,6 @@ footer {
     flex-wrap: wrap;
     gap: 16px;
     justify-content: flex-start;
-    width: 100%;
-    
+    width: 100%; 
+    }
 }
